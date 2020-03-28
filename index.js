@@ -9,7 +9,7 @@ const https = require("https");
 
 //starting contents from Udemy
 const homeStartingContent = "Hello bloggers my name is Abe and welcome to my blog. This blog will consist of my every day life and my journey of getting my ABIT degree. I will also talk about my move to Las Vegas";
-const aboutContent = "Hello My name is Abe Victorino, I am 22 years of age. I am born and raised on the island of Molokai for all my life, Untill I made a change that will change my life. Me and my family have decided it was time for a change and we decided to move to Las Vegas. Follow me in my journey a new life. The city that never sleeps.";
+const aboutContent = "Hello My name is Abe Victorino, I am 22 years of age. I am born and raised on the island of Molokai for all my life, Untill I made a change that will change my life. Me and my family have decided it was time for a change and we decided to move to Las Vegas. Follow me on my journey to a new life.";
 const contactContent = "If you want to know more about me or are interested in contacting me, use my business email.";
 
 const app = express();
