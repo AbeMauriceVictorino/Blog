@@ -115,7 +115,7 @@ app.post("/weather", function(req,res){
 weathers = [];
       const city = req.body.city;
       const units = "imperial";
-      const apiKey = "de82c0db0c44c0274ea961ddad82002b"; //Abe's API Key
+      const apiKey = "67f6b382921c1e89b39b20d4f9556f22"; //Abe's API Key
       const url = "https://api.openweathermap.org/data/2.5/weather?APPID=" + apiKey + "&q=" +city+ "&units=" + units;
       console.log(city);
 
