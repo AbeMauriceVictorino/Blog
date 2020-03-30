@@ -122,7 +122,7 @@ weathers = [];
 
       https.get(url, function(response){
 
-          // gets individual items from Open Weather API
+          
           response.on("data", function(data){
               const weatherData = JSON.parse(data);
               const minTemp = weatherData.main.temp_min;
@@ -138,7 +138,7 @@ weathers = [];
               const icon = weatherData.weather[0].icon;
               const imageURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
 
-            //object that will be pushed back to weathers array and to weather.ejs
+           
               const weather = {
                 city: city,
                 image: imageURL,
